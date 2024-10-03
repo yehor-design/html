@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>html ninja</title>
+    <title>Figma Land</title>
     <link
       rel="shortcut icon"
       href="https://placekitten.com/96/139"
@@ -17,7 +17,538 @@
     ></script>
   </head>
   <body>
-    <h1>HTML Ninja</h1>
-    <img src="img/keep-going-09-do-epic-things.png" alt="">
+    <main class="wrapper">
+      <!-- Header -->
+      <header class="wrapper__header">
+        <nav class="navbar">
+          <div class="navbar__links">
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/product">Product</a>
+              </li>
+              <li>
+                <a href="/pricing">Pricing</a>
+              </li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+              <li class="logo__hero">
+                <a href="/">
+                  <img src="img/logo.png" alt="Logo" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <article class="navbar__socials-white">
+            <ul>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">
+                  <span class="navbar__social-link twitter__icon"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <span class="navbar__social-link facebook__icon"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <span class="navbar__social-link linkedin__icon"></span>
+                </a>
+              </li>
+            </ul>
+          </article>
+        </nav>
+      </header>
+      <!-- Section: Hero -->
+      <section class="hero">
+        <header class="hero__header">
+          <h1 class="about__title">The best products start with Figma</h1>
+          <p class="about__description">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+        </header>
+        <a href="/" target="_blank" class="hero__button">Try For Free</a>
+      </section>
+      <!-- Section: Features -->
+      <section class="features">
+        <header class="features__header">
+          <h2 class="features__title">Features</h2>
+          <p class="features__description">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+        </header>
+        <div class="features__container">
+          <article class="features__item">
+            <img
+              class="features__item-img"
+              src="img/feature1.png"
+              alt="Feature 1"
+            />
+            <h3 class="features__item-title">
+              OpenType features Variable fonts
+            </h3>
+            <p class="features__item-description">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </article>
+          <article class="features__item">
+            <img
+              class="features__item-img"
+              src="img/feature2.png"
+              alt="Feature 2"
+            />
+            <h3 class="features__item-title">Design with real data</h3>
+            <p class="features__item-description">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </article>
+          <article class="features__item">
+            <img
+              class="features__item-img"
+              src="img/feature3.png"
+              alt="Feature 3"
+            />
+            <h3 class="features__item-title">Fastest way to take action</h3>
+            <p class="features__item-description">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </article>
+        </div>
+        <article class="features__video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/CxgOKJh4zWE?si=mOxuOwSmkDaF_hDF"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
+      <!-- Section: Organize -->
+      <section class="organize">
+        <div class="organize__about">
+          <header class="about__header">
+            <h2 class="organize__title">Fastest way to organize</h2>
+            <p class="organize__description">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </p>
+          </header>
+          <a href="/" target="_blank" class="organize__button">Try For Free</a>
+        </div>
+        <figure class="organize__image">
+          <img class="organize__img" src="img/organize.png" alt="Organize" />
+        </figure>
+      </section>
+      <!-- Section: Subscribe -->
+      <section class="subscribe">
+        <figure class="subscribe__image">
+          <img class="subscribe__img" src="img/subscribe.png" alt="Subscribe" />
+        </figure>
+        <div class="subscribe__container">
+          <header class="subscribe__header">
+            <h3 class="subscribe__subtitle">At your fingertips</h3>
+            <h2 class="subscribe__title">Lightning fast prototyping</h2>
+          </header>
+          <div class="subscribe__form">
+            <h3 class="subscribe__form-title">Subscribe to our Newsletter</h3>
+            <p class="subscribe__form-description">
+              Available exclusivery on Figmaland
+            </p>
+            <form class="subscribe__form-container">
+              <input
+                class="subscribe__input"
+                type="email"
+                placeholder="Your Email"
+              />
+              <button class="subscribe__button" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Partners -->
+      <section class="partners">
+        <header class="partners__header">
+          <h2 class="partners__title">Partners</h2>
+          <h4 class="partners__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </header>
+        <div class="partners__container">
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client1.png" alt="Google" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client2.png" alt="Amazon" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client3.png" alt="Microsoft" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client4.png" alt="Uber" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client5.png" alt="Dropbox" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client6.png" alt="Google" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client7.png" alt="Uber" />
+          </article>
+          <article class="partners__item">
+            <h6>Client Name</h6>
+            <img src="img/client8.png" alt="Amazon" />
+          </article>
+        </div>
+        <a class="partners__button" target="_blank" href="/">Try For Free</a>
+      </section>
+      <!-- Section: Testimonials -->
+      <section class="testimonials">
+        <header class="testimonials__header">
+          <h2 class="testimonials__title">Testimonials</h2>
+        </header>
+        <div class="testimonials__container">
+          <article class="testimonials__item">
+            <img
+              class="testimonials__item-img"
+              src="img/testimonial1.png"
+              alt="IBM"
+            />
+            <h4 class="testimonials__item-text">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </h4>
+            <article class="testimonials__client">
+              <img
+                class="testimonials__client-avatar"
+                src="/img/avatar.png"
+                alt="Avatar"
+              />
+              <div class="testimonials__client-info">
+                <h6 class="testimonials__client-organization">
+                  Organize across
+                </h6>
+                <a class="testimonials__client-link" target="_blank" href="/"
+                  >Ui designer</a
+                >
+              </div>
+            </article>
+          </article>
+        </div>
+        <button class="testimonials__button" type="button">
+          More Testimonials
+        </button>
+      </section>
+      <!-- Section: Pricing -->
+      <section class="pricing">
+        <header class="pricing__header">
+          <h2 class="pricing__title">Pricing</h2>
+          <h4 class="pricing__subtitle">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </header>
+        <div class="pricing__table">
+          <!-- Section: Pricing Plan #1 -->
+          <article class="pricing__plan">
+            <header class="plan__header">
+              <h3 class="plan__title">Free</h3>
+              <h6 class="plan__description">
+                Organize across all apps by hand
+              </h6>
+            </header>
+            <div class="plan__price">
+              <h1 class="plan__value">0</h1>
+              <div class="plan__duration">
+                <h3 class="plan__currency">$</h3>
+                <h6 class="plan__period">/mo</h6>
+              </div>
+            </div>
+            <div class="plan__list">
+              <ul class="plan__features">
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+              </ul>
+            </div>
+            <a class="pricing__button" target="_blank" href="/">Order Now</a>
+          </article>
+          <!-- Section: Pricing Plan #2 -->
+          <article class="pricing__plan-active">
+            <header class="plan__header">
+              <h3 class="plan__title">Standard</h3>
+              <h6 class="plan__description">
+                Organize across all apps by hand
+              </h6>
+            </header>
+            <div class="plan__price">
+              <h1 class="plan__value">10</h1>
+              <div class="plan__duration">
+                <h3 class="plan__currency">$</h3>
+                <h6 class="plan__period">/mo</h6>
+              </div>
+            </div>
+            <div class="plan__list">
+              <ul class="plan__features">
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+              </ul>
+            </div>
+            <a class="pricing__button" target="_blank" href="/">Order Now</a>
+          </article>
+          <!-- Section: Pricing Plan #3 -->
+          <article class="pricing__plan">
+            <header class="plan__header">
+              <h3 class="plan__title">Business</h3>
+              <h6 class="plan__description">
+                Organize across all apps by hand
+              </h6>
+            </header>
+            <div class="plan__price">
+              <h1 class="plan__value">99</h1>
+              <div class="plan__duration">
+                <h3 class="plan__currency">$</h3>
+                <h6 class="plan__period">/mo</h6>
+              </div>
+            </div>
+            <div class="plan__list">
+              <ul class="plan__features">
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+              </ul>
+            </div>
+            <a class="pricing__button" target="_blank" href="/">Order Now</a>
+          </article>
+        </div>
+      </section>
+      <!-- Section: Contact Us -->
+      <section class="contactus">
+        <header class="contactus__header">
+          <h2 class="contactus__title">Contact Us</h2>
+          <h4 class="contactus__description">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </header>
+        <article class="contactus__contact">
+          <header class="contact__header">
+            <h3 class="contact__title">Contact Us</h3>
+          </header>
+          <form class="contactus__form">
+            <input
+              class="contactus__input"
+              type="text"
+              placeholder="Your Name"
+            />
+            <input
+              class="contactus__input"
+              type="email"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="contactus__textarea"
+              placeholder="Your Message"
+              cols="33"
+              rows="5"
+            ></textarea>
+            <button class="contactus__button" type="submit">Send</button>
+          </form>
+        </article>
+        <div class="contactus__info">
+          <div class="contactus__methods">
+            <article class="contactus__location">
+              <img
+                class="contactus__location-img"
+                src="img/bx_bx-map.svg"
+                alt="Pin"
+              />
+              <h6 class="contactus__location-address">
+                6386 Spring St undefined Anchorage, Georgia 12473 United States
+              </h6>
+            </article>
+            <article class="contactus__phone">
+              <img
+                class="contactus__phone-img"
+                src="img/ic_baseline-phone-android.svg"
+                alt="Phone number"
+              />
+              <h6 class="contactus__phone-number">(843) 555-0130</h6>
+            </article>
+            <article class="contactus__mail">
+              <img
+                class="contactus__mail-img"
+                src="img/ic_baseline-phone-android.svg"
+                alt="Phone number"
+              />
+              <h6 class="contactus__mail-name">willie.jennings@example.com</h6>
+            </article>
+          </div>
+          <article class="contactus__map">
+            <iframe
+              class="contactus__map-frame"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.073292073073!2d-73.9854286845949!3d40.74881797932547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f3f3b3b3b%3A0x1b8b9f3f3f3f3f3f!2sEmpire%20State%20Building!5e0!3m2!1sen!2sca!4v1629780000000!5m2!1sen!2sca"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </article>
+          <article class="contactus__socials-blue">
+            <ul>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">
+                  <span class="contactus__social-link twitter__icon"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <span class="contactus__social-link facebook__icon"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <span class="contactus__social-link linkedin__icon"></span>
+                </a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer__navigation">
+          <article class="footer__section">
+            <header class="footer__section-header">
+              <h3 class="footer__section-title">Pages</h3>
+            </header>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__list-item" href="/">Home</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/product">Product</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/pricing">Pricing</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/about">About</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </article>
+          <article class="footer__section">
+            <header class="footer__section-header">
+              <h3 class="footer__section-title">Tomothy</h3>
+            </header>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__list-item" href="/">Eleanor Edwards</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Ted Robertson</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Annette Russell</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Jennie Mckinney</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Gloria Richards</a>
+              </li>
+            </ul>
+          </article>
+          <article class="footer__section">
+            <header class="footer__section-header">
+              <h3 class="footer__section-title">Jane Black</h3>
+            </header>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__list-item" href="/">Philip Jones</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Product</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Colleen Russell</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Marvin Hawkins</a>
+              </li>
+              <li>
+                <a class="footer__list-item" href="/">Bruce Simmmons</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="footer__contact">
+          <ul class="footer__contact-list">
+            <li class="footer__contact-item">
+              <span class="footer__icon footer__icon--location"></span>
+              <address>7480 Mockingbird Hill, undefined</address>
+            </li>
+            <li class="footer__contact-item">
+              <span class="footer__icon footer__icon--phone"></span>
+              <a href="tel:2395550108" class="footer__contact-link"
+                >(239) 555-0108</a
+              >
+            </li>
+            <li class="footer__contact-item">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="footer__social-link twitter__icon"
+              ></a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                class="footer__social-link facebook__icon"
+              ></a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                class="footer__social-link linkedin__icon"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
